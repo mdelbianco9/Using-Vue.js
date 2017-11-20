@@ -20,9 +20,9 @@
         <div class="navbar-end navbar-menu" v-bind:class="{ 'is-active':isActive }">
 
           <router-link to="/" class="navbar-item r-item">Home</router-link>
-          <router-link to="Faq" class="navbar-item r-item">Features</router-link>
-          <router-link to="Faq" class="navbar-item r-item">About</router-link>
-          <router-link to="Faq" class="navbar-item r-item">FAQ</router-link>
+          <router-link to="/Faq" class="navbar-item r-item">Features</router-link>
+          <router-link to="about" class="navbar-item r-item">About</router-link>
+          <router-link to="/faq" class="navbar-item r-item">FAQ</router-link>
 
           <div class="navbar-item">
             <p class="control">
